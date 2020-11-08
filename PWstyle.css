@@ -1,0 +1,108 @@
+body{
+    background-image:url('NBpw.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0;
+    padding:0;
+}
+
+#top_bar {
+    background-color:black;
+    height:60px;
+
+}
+
+#rsblog{
+    
+    height:60px;
+    width:50%;
+    font-family: "Lucida Console", Courier, monospace;
+    color: whitesmoke;
+    display:inline-block;
+    text-align:left;
+    padding-left: 5%;
+    
+    
+    font-size:132%;
+    
+}
+
+
+#blog,#about,#contact{
+    text-align:center;
+    height:60px;
+    border-right: 1px solid whitesmoke;
+    width:10%;
+    font-family: "Lucida Console", Courier, monospace;
+    color: whitesmoke;
+    display:inline-block;
+    text-align:left;
+    font-size:132%;
+
+}
+
+.top_bar {
+    border-bottom: solid #080808;
+}
+.labels a, td {
+    text-decoration: none;
+    color: #999;
+    padding: 20px !important;
+    font-size:22px;
+}
+.labels a{
+    padding:5px;
+}
+.labels a:hover{
+    color:white;
+    text-decoration: none;
+}
+.navLinks {
+    float: right;
+}
+.navBar {
+    width: 100%;
+    background-color: rgb(48 46 46);
+}
+.blogContent {
+    background-color: #e0e0e0;
+    opacity: 85%;
+    width: 655px;
+    padding: 1.5rem;
+}
+.container {
+    padding-right: 150px;
+    padding-left: 250px !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.subSection {
+    width: 250px;
+    min-height: 300px;
+    border: solid 1px black;
+    border-radius: 7px;
+    background-color: white;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.items {
+    display:flex;
+}
+.item {
+    padding: 0 45px 15px 25px;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    font-size:20px;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 0.5rem;
+    -moz-osx-font-smoothing: grayscale;
+}
